@@ -1,12 +1,25 @@
 @import '../../static/variables/variables.scss';
 
 .test {
+	&__block {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		// height: 72.5px;
+		&_isVisible {
+			height: 1000px;
+		}
+	}
 	&__card {
-		margin-top: 25px;
+		position: relative;
 		display: flex;
 		align-items: center;
 		gap: 15px;
 		&_arrow {
+			position: relative;
+			z-index: 999;
+			overflow: hidden;
+			background-color: #fff;
 			display: flex;
 			align-items: center;
 			justify-content: center;
@@ -25,24 +38,40 @@
 			color: #444;
 		}
 		&_description {
+			position: relative;
 			margin-top: 20px;
 			display: flex;
-			gap: 55px;
+			&_visible {
+				visibility: visible;
+			}
 		}
+
 		&_line {
+			position: absolute;
+			top: -27px;
+			left: 18px;
 			width: 3px;
 			height: 33px;
-			border: 1px dashed black;
+			border-right: 1px dashed #d0d0d0;
+			&_visible {
+				height: 228px;
+			}
 		}
 		&_text {
+			display: none;
+			margin-left: 55px;
 			font-family: $roboto;
 			font-weight: 400;
 			font-size: 14px;
 			line-height: 143%;
 			color: #444;
+			&_visible {
+				display: block;
+			}
 		}
 		&_link {
 			margin-top: 20px;
+			margin-left: 55px;
 			font-family: $roboto;
 			font-weight: 500;
 			font-size: 14px;
@@ -53,7 +82,11 @@
 			color: #0568c3;
 		}
 		&_block {
+			display: none;
 			margin-top: 10px;
+			&_visible {
+				display: block;
+			}
 		}
 	}
 }
