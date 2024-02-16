@@ -1,0 +1,47 @@
+@import '../../static/variables/variables.scss';
+
+.header {
+	padding-top: 20px;
+	&__title {
+		font-family: $roboto;
+		font-weight: 500;
+		font-size: 25px;
+		line-height: 163%;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: #444;
+	}
+	&__image {
+		margin-top: 25px;
+	}
+	&__description {
+		font-family: $roboto;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 145%;
+		color: #444;
+		margin-top: 20px;
+	}
+	&__button {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #fff;
+		margin-top: 20px;
+		border: 1px solid #0568c3;
+		border-radius: 1px;
+		padding: 21px 56px;
+		width: 157px;
+		height: 44px;
+		// text
+		font-family: $roboto;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 120%;
+		letter-spacing: 0.07em;
+		text-transform: capitalize;
+		text-align: center;
+		color: #0568c3;
+		cursor: pointer;
+	}
+}
