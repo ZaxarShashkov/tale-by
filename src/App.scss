@@ -1,9 +1,11 @@
+@import './static/variables/variables.scss';
+
 .App {
+	font-family: $roboto;
 	display: flex;
 	align-items: left;
 	justify-content: center;
 	flex-direction: column;
-	/* padding: 20px; */
 }
 
 .wrapper {
@@ -15,6 +17,5 @@
 		display: flex;
 		justify-content: center;
 		gap: 50px;
-
 	}
 }

@@ -24,20 +24,19 @@
 			justify-content: center;
 			width: 40px;
 			height: 40px;
-			border: 1px solid #444;
+			border: 1px solid $main-color;
 			border-radius: 3px;
 			min-width: 40px;
 			min-height: 40px;
 			&_active {
-				border: 1px solid #0568c3;
+				border: 1px solid $second-color;
 			}
 		}
 		&_title {
-			font-family: $roboto;
 			font-weight: 400;
 			font-size: 21px;
 			line-height: 125%;
-			color: #444;
+			color: $main-color;
 		}
 		&_description {
 			position: relative;
@@ -65,17 +64,15 @@
 		&_text {
 			display: none;
 			margin-left: 55px;
-			font-family: $roboto;
 			font-weight: 400;
 			font-size: 14px;
 			line-height: 143%;
-			color: #444;
+			color: $main-color;
 			&_visible {
 				display: block;
 			}
 		}
 		&_link {
-			font-family: $roboto;
 			font-weight: 500;
 			font-size: 14px;
 			line-height: 143%;
@@ -83,7 +80,7 @@
 			text-transform: capitalize;
 			text-align: center;
 			text-decoration: none;
-			color: #0568c3;
+			color: $second-color;
 		}
 		&_block {
 			display: none;

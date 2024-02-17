@@ -3,10 +3,6 @@ import { Navigation } from '../Navigation/Navigation';
 import Logo from '../../static/logo.png';
 import instagramm from '../../static/Link - Instagram.svg';
 import facebook from '../../static/Link - Facebook.svg';
-import prom from '../../static/prom.png';
-import energy from '../../static/energy.png';
-import test from '../../static/test.png';
-import human from '../../static/human.png';
 import style from './Footer.module.scss';
 
 export const Footer = () => {

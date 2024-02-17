@@ -4,16 +4,15 @@
 	position: relative;
 	margin-top: 45px;
 	&__title {
-		font-family: $roboto;
 		font-weight: 500;
 		font-size: 25px;
 		line-height: 163%;
 		letter-spacing: 0.1em;
 		text-transform: uppercase;
-		color: #444;
+		color: $main-color;
 		margin-bottom: 25px;
 		&_hl {
-			color: #0568c3;
+			color: $second-color;
 		}
 	}
 }
