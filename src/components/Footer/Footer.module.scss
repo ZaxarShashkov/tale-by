@@ -5,6 +5,15 @@
 	background: #323232;
 	color: #fff;
 	padding: 20px;
+	&__line {
+		width: 100%;
+		height: 1px;
+		background: #444;
+		margin-top: 10px;
+		&_second {
+			display: none;
+		}
+	}
 	&__contact {
 		margin-top: 20px;
 	}
@@ -33,13 +42,11 @@
 		&_card {
 			display: flex;
 			gap: 10px;
-			justify-content: space-around;
 		}
 		&_secondcard {
 			margin-top: 20px;
 			display: flex;
 			gap: 10px;
-			justify-content: space-around;
 		}
 		&_descr {
 			margin-top: 20px;
@@ -48,12 +55,86 @@
 			font-size: 14px;
 			line-height: 143%;
 			text-align: center;
+			letter-spacing: 0.02em;
+		}
+		&_prom {
+			width: 188px;
+			height: 147px;
+			background-image: url('../../static/prom.png');
+		}
+		&_energy {
+			width: 188px;
+			height: 147px;
+			background-image: url('../../static/energy.png');
+		}
+		&_human {
+			width: 188px;
+			height: 147px;
+			background-image: url('../../static/human.png');
+		}
+		&_test {
+			width: 188px;
+			height: 147px;
+			background-image: url('../../static/test.png');
 		}
 	}
 }
 
 @media only screen and (min-width: 1024px) {
 	.footer {
-		
+		margin-top: 80px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 140px;
+		&__lineblock {
+			display: flex;
+			gap: 12px;
+		}
+		&__line {
+			width: 225px;
+			&_second {
+				display: block;
+				width: 225px;
+				height: 1px;
+				background: #444;
+				margin-top: 10px;
+			}
+		}
+
+		&__contact {
+			margin-top: 0px;
+			max-width: 258px;
+		}
+		&__gallery {
+			margin-top: 0px;
+			&_img {
+				display: flex;
+			}
+			&_descr {
+				margin-top: 0px;
+				max-width: 125px;
+			}
+			&_prom {
+				width: 103px;
+				height: 81px;
+				background-image: url(../../static/prom=desktop.png);
+			}
+			&_energy {
+				width: 103px;
+				height: 81px;
+				background-image: url(../../static/energy-desktop.png);
+			}
+			&_human {
+				width: 103px;
+				height: 81px;
+				background-image: url(../../static/human-desktop.png);
+			}
+			&_test {
+				width: 103px;
+				height: 81px;
+				background-image: url(../../static/test-desktop.png);
+			}
+		}
 	}
 }

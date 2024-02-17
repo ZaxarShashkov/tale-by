@@ -28,28 +28,25 @@ export const Footer = () => {
 			<div className={style.footer__gallery}>
 				<div className={style.footer__gallery_card}>
 					<div className={style.footer__gallery_img}>
-						<img src={prom} alt='prom' />
+						<div className={style.footer__gallery_prom} />
 						<p className={style.footer__gallery_descr}>Промышленное строительсво</p>
 					</div>
-					<div className=''>
-						<img src={energy} alt='energy' />
+					<div className={style.footer__gallery_img}>
+						<div className={style.footer__gallery_energy} />
 						<p className={style.footer__gallery_descr}>Энергетическое строительство</p>
 					</div>
 				</div>
-				<div
-					style={{
-						width: '100%',
-						height: '1px',
-						background: '#444',
-						marginTop: '10px',
-					}}></div>
+				<div className={style.footer__lineblock}>
+					<div className={style.footer__line} />
+					<div className={style.footer__line_second} />
+				</div>
 				<div className={style.footer__gallery_secondcard}>
 					<div className={style.footer__gallery_img}>
-						<img src={human} alt='human' />
+						<div className={style.footer__gallery_human} />
 						<p className={style.footer__gallery_descr}>Гражданское строительство</p>
 					</div>
-					<div className=''>
-						<img src={test} alt='test' />
+					<div className={style.footer__gallery_img}>
+						<div className={style.footer__gallery_test} />
 						<p className={style.footer__gallery_descr}>Испытательная лаборатория</p>
 					</div>
 				</div>
