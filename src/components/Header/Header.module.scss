@@ -13,6 +13,9 @@
 	}
 	&__image {
 		margin-top: 25px;
+		width: 385px;
+		height: 250px;
+		background-image: url('../../static/main_bgc.png');
 	}
 	&__description {
 		font-family: $roboto;
@@ -43,5 +46,18 @@
 		text-align: center;
 		color: #0568c3;
 		cursor: pointer;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.header {
+		&__image {
+			background: url('../../static/bgc-home-1920.png');
+			width: 554px;
+			height: 289px;
+		}
+		&__description {
+			max-width: 554px;
+		}
 	}
 }

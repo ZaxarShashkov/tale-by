@@ -38,7 +38,7 @@ export const Footer = () => {
 				</div>
 				<div
 					style={{
-						width: '387px',
+						width: '100%',
 						height: '1px',
 						background: '#444',
 						marginTop: '10px',

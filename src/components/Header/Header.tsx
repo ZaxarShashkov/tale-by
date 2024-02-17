@@ -5,9 +5,7 @@ export const Header = () => {
 	return (
 		<header className={styles.header}>
 			<h1 className={styles.header__title}>Лаборатория</h1>
-			<div className={styles.header__image}>
-				<img src='images/main_bgc.png' alt='laboratory' />
-			</div>
+			<div className={styles.header__image}></div>
 			<p className={styles.header__description}>
 				Наша лаборатория готова провести комплексную наладку ваших электроустановок и/или
 				оборудования и предоставить полный пакет документов, необходимых для их успешного
