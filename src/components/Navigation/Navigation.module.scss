@@ -1,0 +1,25 @@
+@import '../../static/variables/variables.scss';
+
+.navigation {
+	margin-top: 50px;
+	&__menu {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: left;
+		padding: 0;
+		height: 200px;
+		&_item {
+			list-style-type: none;
+			font-family: $roboto;
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 143%;
+			text-transform: uppercase;
+			margin-top: 10px;
+			> a {
+				text-decoration: none;
+			}
+		}
+	}
+}

@@ -28,4 +28,24 @@
 		text-align: center;
 		color: #9b9b9b;
 	}
+	&__gallery {
+		margin-top: 30px;
+		&_card {
+			display: flex;
+			gap: 10px;
+		}
+		&_secondcard {
+			margin-top: 20px;
+			display: flex;
+			gap: 10px;
+		}
+		&_descr {
+			margin-top: 20px;
+			font-family: $roboto;
+			font-weight: 400;
+			font-size: 14px;
+			line-height: 143%;
+			text-align: center;
+		}
+	}
 }
