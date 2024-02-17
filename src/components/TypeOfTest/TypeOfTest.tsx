@@ -1,16 +1,23 @@
 import React, { useState } from 'react';
 import styles from './TypeOfTest.module.scss';
 import arrow from '../../static/arrow.svg';
+import arrowDefault from '../../static/arrow-default.svg';
+import arrowRight from '../../static/arrow-right.svg';
+
 import classNames from 'classnames/bind';
 
 const cn = classNames.bind(styles);
 
-export const TypeOfTest = (test: any) => {
+export type ITest = {
+	id: number;
+	title: string;
+};
+
+export const TypeOfTest = (test: ITest) => {
 	const [isVisible, setIsVisible] = useState<boolean>(false);
 
 	const handleClick = () => {
 		setIsVisible((isVisible) => !isVisible);
-		console.log(isVisible);
 	};
 
 	return (
@@ -20,8 +27,12 @@ export const TypeOfTest = (test: any) => {
 					text__block_visible: isVisible,
 				})}>
 				<div className={styles.test__card}>
-					<div className={styles.test__card_arrow} onClick={handleClick}>
-						<img src={arrow} alt='' />
+					<div
+						className={cn(styles.test__card_arrow, {
+							test__card_arrow_active: isVisible,
+						})}
+						onClick={handleClick}>
+						<img src={isVisible ? arrow : arrowDefault} alt='' />
 					</div>
 					<h6 className={styles.test__card_title}>{test.title}</h6>
 				</div>
@@ -33,6 +44,7 @@ export const TypeOfTest = (test: any) => {
 					<div
 						className={cn(styles.test__card_line, {
 							test__card_line_visible: isVisible,
+							test__card_line_inVisible: test.id === 4,
 						})}></div>
 					<article>
 						<p
@@ -52,6 +64,7 @@ export const TypeOfTest = (test: any) => {
 							<a href='#' className={styles.test__card_link}>
 								Подробнее
 							</a>
+							<img src={arrowRight} alt='arrow' />
 						</div>
 					</article>
 				</div>

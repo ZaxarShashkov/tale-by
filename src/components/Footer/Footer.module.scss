@@ -1,0 +1,31 @@
+@import '../../static/variables/variables.scss';
+
+.footer {
+	margin-top: 10px;
+	background: #323232;
+	color: #fff;
+	padding: 20px;
+	&__contact {
+		margin-top: 20px;
+	}
+	&__description {
+		margin-top: 20px;
+		font-family: $roboto;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 143%;
+	}
+	&__social {
+		margin-top: 20px;
+		display: flex;
+		gap: 15px;
+	}
+	&__text {
+		font-family: $roboto;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 133%;
+		text-align: center;
+		color: #9b9b9b;
+	}
+}

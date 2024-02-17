@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Main.module.scss';
-import { TypeOfTest } from '../TypeOfTest/TypeOfTest';
+import { TypeOfTest } from '..';
+import { ITest } from '../TypeOfTest/TypeOfTest';
 
 const tests = [
 	{ id: 1, title: 'Электрофизические измерения (ЭФИ)' },
@@ -15,8 +16,8 @@ export const Main = () => {
 			<h2 className={styles.main__title}>
 				Виды <span className={styles.main__title_hl}>Испытаний</span>
 			</h2>
-			{tests?.map((test: any) => {
-				return <TypeOfTest title={test.title} />;
+			{tests?.map((test: ITest) => {
+				return <TypeOfTest title={test.title} id={test.id} key={test.id} />;
 			})}
 		</main>
 	);
