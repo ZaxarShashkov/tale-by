@@ -102,6 +102,10 @@
 			&_text {
 				max-width: 498px;
 			}
+			&_link:hover {
+				text-decoration: underline;
+				transition: all 0.12s ease-in-out;
+			}
 		}
 	}
 }

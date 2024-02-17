@@ -14,7 +14,7 @@
 		margin-top: 25px;
 		width: 385px;
 		height: 250px;
-		background-image: url('../../static/main_bgc.png');
+		background-image: url('../../static/main_bgc.webp');
 	}
 	&__description {
 		font-weight: 400;
@@ -49,12 +49,16 @@
 @media only screen and (min-width: 1024px) {
 	.header {
 		&__image {
-			background: url('../../static/bgc-home-1920.png');
+			background: url('../../static/bgc-home-1920.webp');
 			width: 554px;
 			height: 289px;
 		}
 		&__description {
 			max-width: 554px;
+		}
+		&__button:hover {
+			transform: rotate(360deg);
+			transition: all 2s ease-in-out;
 		}
 	}
 }

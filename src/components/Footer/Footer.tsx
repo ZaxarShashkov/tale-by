@@ -15,8 +15,12 @@ export const Footer = () => {
 					активности позволяет оценить значение дальнейших направлений развития. Товарищи!
 				</p>
 				<div className={style.footer__social}>
-					<img src={instagramm} alt='instagramm' />
-					<img src={facebook} alt='facebook' />
+					<a href='#'>
+						<img src={instagramm} alt='instagramm' />
+					</a>
+					<a href='#'>
+						<img src={facebook} alt='facebook' />
+					</a>
 					<span className={style.footer__text}> Присоединяйтесь 😉</span>
 				</div>
 			</div>

@@ -61,7 +61,7 @@
 		&_prom {
 			width: 188px;
 			height: 147px;
-			background-image: url('../../static/prom.png');
+			background-image: url('../../static/prom.webp');
 		}
 		&_energy {
 			width: 188px;
@@ -71,12 +71,12 @@
 		&_human {
 			width: 188px;
 			height: 147px;
-			background-image: url('../../static/human.png');
+			background-image: url('../../static/human.webp');
 		}
 		&_test {
 			width: 188px;
 			height: 147px;
-			background-image: url('../../static/test.png');
+			background-image: url('../../static/test.webp');
 		}
 		&_img {
 			width: 215px;
@@ -90,7 +90,7 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		gap: 140px;
+		gap: 150px;
 		&__lineblock {
 			display: flex;
 			gap: 12px;
@@ -122,22 +122,22 @@
 			&_prom {
 				width: 103px;
 				height: 81px;
-				background-image: url(../../static/prom=desktop.png);
+				background-image: url(../../static/prom-desktop.webp);
 			}
 			&_energy {
 				width: 103px;
 				height: 81px;
-				background-image: url(../../static/energy-desktop.png);
+				background-image: url(../../static/energy-desktop.webp);
 			}
 			&_human {
 				width: 103px;
 				height: 81px;
-				background-image: url(../../static/human-desktop.png);
+				background-image: url(../../static/human-desktop.webp);
 			}
 			&_test {
 				width: 103px;
 				height: 81px;
-				background-image: url(../../static/test-desktop.png);
+				background-image: url(../../static/test-desktop.webp);
 			}
 		}
 	}
