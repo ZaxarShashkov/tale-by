@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/tale-by/static/css/main.4cca6097.css",
+    "main.js": "/tale-by/static/js/main.ded9168c.js",
+    "static/media/Prompt-Medium.ttf": "/tale-by/static/media/Prompt-Medium.13aa547876aaa510c372.ttf",
+    "static/media/Roboto-Medium.ttf": "/tale-by/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
+    "static/media/Roboto-Regular.ttf": "/tale-by/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Prompt-Regular.ttf": "/tale-by/static/media/Prompt-Regular.a8979f5fddba897421a7.ttf",
+    "static/media/bgc-home-1920.webp": "/tale-by/static/media/bgc-home-1920.20df2f06f9da51e0e6a5.webp",
+    "static/media/main_bgc.webp": "/tale-by/static/media/main_bgc.d9c4e332200b2a8198e4.webp",
+    "static/media/energy.png": "/tale-by/static/media/energy.9a2120b501df9a8913a8.png",
+    "static/media/test.webp": "/tale-by/static/media/test.e4ef1310949ecb09607b.webp",
+    "static/media/human.webp": "/tale-by/static/media/human.6f69174409d7e536489f.webp",
+    "static/media/prom.webp": "/tale-by/static/media/prom.4bc6a942a65f12abf6a2.webp",
+    "static/media/test-desktop.webp": "/tale-by/static/media/test-desktop.f724b8cbd9a42d98e501.webp",
+    "static/media/energy-desktop.webp": "/tale-by/static/media/energy-desktop.7aebc03833a7b83669a6.webp",
+    "static/media/human-desktop.webp": "/tale-by/static/media/human-desktop.ea2bfb995d451b290892.webp",
+    "static/media/prom-desktop.webp": "/tale-by/static/media/prom-desktop.097ca87a4d03c2d85870.webp",
+    "static/media/Link - Instagram.svg": "/tale-by/static/media/Link - Instagram.6f865f37ff78c6276ab73afa5fd4e743.svg",
+    "static/media/arrow-right.svg": "/tale-by/static/media/arrow-right.e2e72cdf3f925cf9ed6b474e6cd4d2da.svg",
+    "static/media/arrow.svg": "/tale-by/static/media/arrow.63e1f4c6171aa4c2a936c0fcc15ff556.svg",
+    "static/media/arrow-default.svg": "/tale-by/static/media/arrow-default.976eed18343d88f5c5a11cf4d52a9592.svg",
+    "static/media/Link - Facebook.svg": "/tale-by/static/media/Link - Facebook.6b838c354050d6706e378916864d7ccf.svg",
+    "index.html": "/tale-by/index.html",
+    "main.4cca6097.css.map": "/tale-by/static/css/main.4cca6097.css.map",
+    "main.ded9168c.js.map": "/tale-by/static/js/main.ded9168c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4cca6097.css",
+    "static/js/main.ded9168c.js"
+  ]
+}
